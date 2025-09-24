@@ -1,0 +1,53 @@
+@import url("reset.css");
+
+
+* {
+    color: black;
+}
+
+ a {
+    color: blue;
+} 
+
+.big-title {
+    color: brown;
+}
+
+#red {
+    color: red;
+}
+
+[href="#"] {
+    color: chartreuse;
+}
+
+h3.small-title {
+    color: cyan;
+}
+
+.text p {
+    color: darkolivegreen;
+}
+
+.list li {
+    color: grey;
+}
+
+.number-list li {
+    color: dimgray;
+}
+.sublist li {
+    color: darkslategrey;
+}
+
+.bottom a {
+    color: darkviolet;
+}
+
+
+ 
+
+
+
+
+
