@@ -1,0 +1,70 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair%20Display:wght@400&display=swap'); */
+
+
+
+body{
+    font-family: "SUSE Mono", serif ;
+    font-size: 16px;
+    color: cadetblue;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: aqua;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+.name{
+    font-family: "Praysire", serif;
+    font-size: 25px;
+    color: blue;
+}
+h2{
+    font-family: "Licorice", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: chocolate;
+    text-align: center;
+    line-height: 2;
+}
+.shadow{
+    text-shadow: 5px 5px 5px red;
+}
+
+
+.section1{
+    font-family: Playfair Display, serif;
+    font-size: 30px;
+    color: darkgreen;
+    text-shadow: 4px 4px 4px yellow;
+}
+
+.inclined{
+    font-style: italic;
+    color: cyan;
+    text-align: justify;
+    text-decoration: underline;
+    text-decoration-color: rgb(143, 220, 20);
+    text-decoration-style: wavy;
+}
+
+.section2 {
+    font-family: "SUSE Mono", serif;
+    font-size: 30px;
+    color: darksalmon;
+    
+    
+}
+
+
+
+
