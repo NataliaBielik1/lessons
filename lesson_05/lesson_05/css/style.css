@@ -39,8 +39,8 @@ h1 {
 }
 
 .item_card {
-    /* padding-left: 34px; 
-    padding-right: 34px;  */
+    padding-left: 34px; 
+    padding-right: 34px; 
     display: inline-block;
     width: 33.333%;
     vertical-align: top;
@@ -68,6 +68,7 @@ h4 {
 .content {
     margin-bottom: 68px;
     color: #7E7F7C;
+    line-height: 125%;
 }
 
 
