@@ -1,0 +1,132 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+.banner {
+  width: 1920px;
+  height: 694px;
+  padding-bottom: 82px;
+}
+.rectangle {
+  background-image: url("../img/Rectangle\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 612px;
+  width: 1920px;
+}
+
+.banner-container {
+  margin-left: 1008px;
+  padding-top: 114px;
+}
+
+.invite {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 1;
+  color: 2F302C;
+  text-transform: uppercase;
+}
+.line {
+  width: 308px;
+  height: 16px;
+  border-bottom: 1px solid black;
+  margin-bottom: 36px;
+  color: 2F302C;
+}
+
+.text {
+  font-family: lato, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: D9D9D9;
+}
+
+.small-text {
+  font-size: 16px;
+  max-width: 374px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #7e7f7c;
+}
+
+.list {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-left: 40px;
+}
+
+.item {
+  margin-bottom: 19px;
+  min-height: 32px;
+  padding-left: 42px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 2.3;
+  font-family: "Montserrat", sans-serif;
+  color: #252b42;
+}
+
+.checked {
+  background: url(../img/checked.svg) no-repeat;
+}
+
+.unchecked {
+  background: url(../img/unchecked.svg) no-repeat;
+}
+
+
+
+.block {
+  /* border: 2px solid red; */
+  margin: 50px;
+  box-shadow: 5px 5px 20px 10px red;
+}
+
+.inline {
+  outline: 3px solid yellow;
+}
+.inline-block {
+  border: 5px solid green;
+}
+
+.button {
+  padding: 15px;
+  background-color: aqua;
+  border-radius: 15px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  box-shadow: 0 5px 0 0 blue;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+  position: relative;
+  top: 0;
+}
+.button:hover {
+  top: 5px;
+  box-shadow: 0 2px 0 0 green;
+}
+.block {
+  /* width: 200px;
+    height: 100px; */
+  /* background-color: blueviolet; */
+  background-image: url("../img/email.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
