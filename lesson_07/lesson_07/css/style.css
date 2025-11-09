@@ -1,0 +1,258 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.title {
+  color: darkgrey;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.field {
+  width: 60%;
+  height: 900px;
+  border: 1px solid red;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  background-color: aqua;
+}
+.field > * {
+  visibility: hidden;
+}
+.field > *:first-child {
+  visibility: visible;
+}
+.field > *:hover,
+.field > *:hover + * {
+  visibility: visible;
+}
+
+.block-1 {
+  width: 220px;
+  height: 200px;
+  border: 2px solid blue;
+  background-image: url(../img/download.jpg);
+}
+.block-2 {
+  width: 250px;
+  height: 30px;
+  border: 2px solid blue;
+  margin-left: 220px;
+  margin-top: -100px;
+  background-color: green;
+}
+
+.block-3 {
+  width: 30px;
+  height: 250px;
+  border: 2px solid blue;
+  margin-left: 440px;
+  background-color: green;
+}
+.block-4 {
+  width: 250px;
+  height: 20px;
+  border: 2px solid blue;
+  margin-left: 440px;
+
+  background-color: green;
+}
+.block-5 {
+  width: 20px;
+  height: 250px;
+  border: 2px solid blue;
+  margin-left: 670px;
+  background-color: green;
+}
+.block-6 {
+  width: 250px;
+  height: 10px;
+  border: 2px solid blue;
+  margin-left: 670px;
+
+  background-color: green;
+}
+.block-7 {
+  width: 10px;
+  height: 250px;
+  border: 2px solid blue;
+  margin-left: 920px;
+  margin-top: -10px;
+  background-color: green;
+}
+.block-8 {
+  width: 150px;
+  border: 2px solid blue;
+  background-color: blueviolet;
+  margin-left: 930px;
+  margin-top: -50px;
+}
+.text {
+  font-size: 45px;
+  text-transform: lowercase;
+}
+.task {
+  padding-left: 50px;
+}
+.task-title {
+  font-size: 35px;
+  color: gray;
+  margin-bottom: 40px;
+}
+.list {
+}
+.list_item {
+  line-height: 1.71;
+  color: #252b42;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  padding-left: 42px;
+}
+.list_item::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background: url(../img/checked.svg);
+
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.list_item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+/* .link{
+  color: blue;
+  display: block;
+}
+.link:hover {
+  color: chartreuse;
+  text-decoration: underline;
+  font-size: 30px;
+
+}
+
+.link:active {
+  color: darkmagenta;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: darksalmon;
+} */
+
+/* .block:target {
+  background-color: green;
+}
+.text {
+  padding: 15px;
+  background-color: blueviolet;
+  /* color: cadetblue; */
+/* }
+.some {
+
+} */
+
+/* .some::before {
+  content: "Before";
+}
+.some::after {
+  content: "After";
+} */
+/* .text p {
+  margin-bottom: 15px;
+  color: cadetblue;
+} */
+
+/* .text p:first-child {
+  color: aqua;
+} */
+
+/* .text p:first-child {
+  color: yellow;
+}  */
+/* .text p:first-of-type {
+  color: white;
+} */
+/* .text p:last-child {
+  color: darkgreen;
+}   */
+/* .text p:last-of-type {
+  color: chartreuse;
+}  */
+/* .text p:nth-child(2) {
+  color: red;
+} */
+/* .text p:nth-of-type(even) {
+  color: red;
+} */
+/* .text p:nth-of-type(3n) {
+  color: red;
+} */
+/* .text p:nth-of-type(3n + 1) {
+  color: red;
+} */
+/* .text p:nth-of-type(4n + 2) {
+  color: red;
+} */
+/* .text p:not(.no) {
+  color: white;
+ } */
+/* .button:not(button) {
+    color: red;
+  } */
+/* button:not(.button) {
+    color: red;
+  } */
+/* .text:has(.yes){
+    color: gold;
+  }
+
+.some-block {
+padding: 15px;
+background-color: aqua;
+		
+}
+.some-block  > * {
+  margin-bottom: 20px;
+}
+.some-block  > *:last-child {
+  margin-bottom: 0;
+}
+.some-block-title {
+  font-size: 24px;
+  font-weight: 700;
+  
+}
+.some-block-text {
+  line-height: 1.3;
+}
+.some-block_link {
+  color: blue;
+} */
+
+/* 
+.title {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: brown;
+  width: 67%;
+  margin-top: 5px;
+
+} */
