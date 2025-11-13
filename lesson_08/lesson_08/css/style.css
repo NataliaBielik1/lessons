@@ -1,0 +1,33 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: cadetblue;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+.wrapper {
+  background-color: aquamarine; 
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.wrapper > * {
+  margin-bottom: 25px;
+}
+span {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 24px;
+}
+.circle {
+  /* width: 100px;
+  height: 100px; */
+}
