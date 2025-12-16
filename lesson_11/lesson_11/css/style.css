@@ -4,6 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
+.section__title {
+  color: aqua;
+}
+
 
 .block {
   width: 300px;
@@ -13,16 +17,16 @@
 }
 
 .block__item {
-  /* transform: translate(20px, 30px); */
+transform: translate(20px, 30px);
 padding: 10px;
 width: 300px;
 height: 300px;
 margin: 0 auto;
 background-color: blue;
-/* scale: 0,5; */
-/* transform: scale(0.5, 2); */
-/* scale: 0.5 2; */
-/* transform: skew(20deg); */
+scale: 0,5; 
+ transform: scale(0.5, 2); 
+ scale: 0.5 2; 
+transform: skew(20deg); 
 transform: rotate(-45deg);
 transform-origin: top right;
 }
@@ -118,3 +122,124 @@ transform: rotateY(40deg);
 
 .wheel-right {
   right: 50px;
+}
+[class*="__container"] {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.section__container {
+  padding-top: 40px;
+}
+.section__title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.section__list {
+  background-color: lightpink;
+  padding: 30px 0;
+}
+
+.list-section__item {
+    width: 250px;
+    height: 250px;
+    margin: 33px;
+    background-color: #d3d1d1;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 15px 0 coral;
+    border: 3px solid rgb(172, 22, 92);
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+}
+.list-section__card {
+    width: 150px;
+    height: 150px;
+    background-color: #af97a9;
+    /* background: linear-gradient(180deg, #039f7d 0%, #00687b 100%); */
+    background-color: #cbdb34;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    transition: transform 0.85s;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    border: 3px solid rgb(197, 184, 7);
+    /* box-shadow: 2px 2px 7px 0 #5e5e5d; */
+    padding-top: 50px;
+}
+.list-section__item--translate:hover
+.list-section__card {
+  transform: translate(50px, 50px);
+} 
+.list-section__item--scale:hover
+ .list-section__card {
+transform: scale(2);
+ } 
+.list-section__item--rotate:hover
+.list-section__card {
+  transform: rotate(40deg);
+}
+.list-section__item--skew:hover
+.list-section__card {
+  transform: skew(20deg,30deg);
+}
+.list-section__item--matrix:hover
+.list-section__card {
+  transform: translate(20px, 20px) scale(0.5) rotate(-45deg) skew(-30deg);
+}
+
+.list-section__item--origin:hover
+.list-section__card {
+  transform: rotate(-45deg);
+  transform-origin: top;
+}
+.list-section__item--perspective {
+  perspective: 200px;
+  perspective-origin: center;
+}
+.list-section__item--perspective:hover 
+.list-section__card {
+transform: rotateY(40deg);
+}
+.list-section__item--3D {
+  perspective: 300px;
+}
+.list-section__item--3D:hover
+.list-section__card {
+  transform: translate3d(25px, 40px, 55px);
+}
+.list-section__item--scale3D {
+  perspective: 300px;
+}
+.list-section__item--scale3D:hover
+.list-section__card {
+transform: scale3d(2, 1, 2);
+}
+.list-section__item--rotate3D {
+  perspective: 400px;
+}
+.list-section__item--rotate3D:hover
+.list-section__card {
+  transform: rotate3d(2, 2, 3, 175deg);
+}
+.list-section__item--style {
+  perspective: 300px;
+  transform-style: flat;
+}
+.list-section__item--style:hover
+.list-section__card {
+  transform: rotateY(30deg);
+}
+.list-section__item--backface:hover
+.list-section__card {
+transform: rotateY(150deg);
+backface-visibility: visible;
+}
